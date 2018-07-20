@@ -1,4 +1,5 @@
-map gf :action GotoImplementation <CR>
-map gk :action VimMotionNextTab <CR>
-map gj :action VimMotionPreviousTab <CR>
-
+map gf  :action GotoImplementation <CR>
+map gk  :action VimMotionNextTab <CR>
+map gj  :action VimMotionPreviousTab <CR>
+map gr  :action RenameElement <CR>
+map gu	:action FindUsages <CR>
