@@ -6,3 +6,5 @@ map gk gt
 map gj gT
 map J gj
 map K gk
+
+" source ~/.plugin.vimrc
