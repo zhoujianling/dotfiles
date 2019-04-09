@@ -5,3 +5,6 @@ map gr  :action RenameElement <CR>
 map gu	:action FindUsages <CR>
 map J gj
 map K gk
+
+map gq :q<CR>
+map go <C-o>
