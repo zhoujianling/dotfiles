@@ -6,7 +6,9 @@ Plug 'tpope/vim-sensible'
 Plug 'junegunn/seoul256.vim'
 Plug 'Valloric/YouCompleteMe'
 Plug 'flazz/vim-colorschemes'
-
+Plug 'ludovicchabant/vim-gutentags'
+"Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
+"Plug 'skywind3000/asyncrun.vim'
 Plug 'scrooloose/nerdtree'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -15,10 +17,10 @@ call plug#end()
 colorscheme molokai
 
 map gn :NERDTree .<CR>
+let g:gutentags_project_root = ['.git', '.project']
 
 set tags=./tags;,tags
 
 map gh <C-W>]
 map gd <C-]>
-map gq :q<CR>
-map go <C-o>
+
