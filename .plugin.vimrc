@@ -22,5 +22,7 @@ let g:gutentags_project_root = ['.git', '.project']
 set tags=./tags;,tags
 
 map gh <C-W>]
-map gd <C-]>
 
+" for YCM
+map gd :YcmCompleter GoToDefinition<CR>
+map gj :YcmCompleter GoToDeclaration<CR>
