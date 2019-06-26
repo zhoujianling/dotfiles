@@ -3,8 +3,8 @@ set guifont=consolas:h20 " for gVim
 set ts=4
 set shiftwidth=4 " for new line after {
 set expandtab
-map J gj
-map K gk
+map J gT
+map K gt
 
 map gq :q<CR>
 map go <C-o>
