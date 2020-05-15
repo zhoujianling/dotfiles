@@ -3,8 +3,8 @@ map gk  :action VimMotionNextTab <CR>
 map gj  :action VimMotionPreviousTab <CR>
 map gr  :action RenameElement <CR>
 map gu	:action FindUsages <CR>
-map J gj
-map K gk
+map J gT
+map K gt
 
 map gq :q<CR>
 map go <C-o>
