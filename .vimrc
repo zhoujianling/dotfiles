@@ -6,6 +6,7 @@ set expandtab
 set belloff=all
 map J gT
 map K gt
+map V <C-v>
 
 map gq :q<CR>
 map go <C-o>
