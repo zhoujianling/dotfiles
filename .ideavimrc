@@ -8,3 +8,4 @@ map K gt
 
 map gq :q<CR>
 map go <C-o>
+noremap p  "0p
